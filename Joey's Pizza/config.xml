@@ -49,10 +49,8 @@
   <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
   <icon src="www/res/icon/webos/icon-64.png" gap:platform="webos"/>
   <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
-  <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
-  
-  <splash src="splash.png" />
-
+  <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>  
+  <splash src="splash.png"/>
   <access origin="*"/>
   <access origin="tel:*" launch-external="yes"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
