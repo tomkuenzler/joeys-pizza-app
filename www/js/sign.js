@@ -1,5 +1,5 @@
 function myFunction() {
-  var d = new Date('February 5, 2016 20:24:00');
+  var d = new Date();
   var day = d.getDay();
   var hour = d.getHours();
   
