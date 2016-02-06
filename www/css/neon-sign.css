@@ -2,7 +2,8 @@
   position: absolute;
   right: 0px;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 5px;
+  margin-right: 10px;
   border-radius: 28px;
   background-color: #141414;
   box-shadow: 0px 20px 10px -15px rgba(0, 0, 0, 0.5), 0px 10px 5px -5px rgba(0, 0, 0, 0.5), 0px 5px 10px 0px rgba(0, 0, 0, 0.5), 0px 10px 10px rgba(0, 0, 0, 0.7) inset;
@@ -13,13 +14,13 @@
 
 .sign {
   display: inline-block;
-  padding: 0 12px 0 12px;
+  padding: 0 12px 10px 12px;
   border-radius: 20px;
   -webkit-filter: blur(0.75px);
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7), 0px 0px 0px 5px blue, 0px 0px 0px 3px blue inset, 0px 0px 60px rgba(0, 0, 255, 0.5), 0px 0px 60px rgba(0, 0, 255, 0.5) inset;
 }
 
-h1 {
+.sign h1 {
   font-family: avenir, sans-serif;
   font-size: 90px;
   line-height: 0px;
@@ -31,7 +32,8 @@ h1 {
   text-transform: uppercase;
   text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.2);
 }
-h1:before {
+
+.sign h1:before {
   content: "OPEN";
   position: absolute;
   top: 0;
@@ -41,7 +43,8 @@ h1:before {
   -webkit-text-stroke-width: 6px;
   -webkit-text-stroke-color: red;
 }
-h1:after {
+
+.sign h1:after {
   content: "OPEN";
   position: absolute;
   top: 0;
