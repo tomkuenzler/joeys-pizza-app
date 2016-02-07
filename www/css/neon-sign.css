@@ -6,7 +6,6 @@
   margin-right: 10px;
   border-radius: 28px;
   background-color: #141414;
-  box-shadow: 0px 20px 10px -15px rgba(0, 0, 0, 0.5), 0px 10px 5px -5px rgba(0, 0, 0, 0.5), 0px 5px 10px 0px rgba(0, 0, 0, 0.5), 0px 10px 10px rgba(0, 0, 0, 0.7) inset;
   border: 4px solid #1f1f1f;
   border-top: 4px solid black;
   border-bottom: 4px solid #292929;
@@ -52,4 +51,8 @@
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgba(255, 51, 51, 0.8);
+}
+
+#open-sign {
+  visibility: hidden;
 }
