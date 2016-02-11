@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  width: 101%;
+  width: 100%;
 }
 
 body {
@@ -50,48 +50,28 @@ div.mydiv span {
   display: block;
 }
 
-.inner-container {
-	padding-left: 10px;
-}
-
-.starter-template {
-  text-align: center;
-  text-align: left;
-}
-
 .mydiv {
 	color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 26px;
 	height: 100%;
 	width: 100%;
-	padding: 10px 10px;	
-  background-color: rgba(0, 0, 0, 0.0);
-}
-
-.jumbotron {
-	margin-bottom: 5px;
-	height: 33.3%;
-}
-
-.upper-center {
-  text-transform: uppercase;
-  text-align: center;
+	padding: 10px 10px;
 }
 
 .information {
-  padding-left:40px;
+  padding-left: 50px;
   margin-bottom: 0;
   margin-right:auto;
   margin-left:auto
 }
 
 .big-icon {
-	font-size: 26px;
+	font-size: 28px;
 }
 
 .large-text {
-	font-size: 16px;
+	font-size: 18px;
 	color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   background-color: rgba(64,64,64, 0.0);
@@ -99,37 +79,23 @@ div.mydiv span {
 }
 
 .bold-text {
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
-.white-text {
+.white-text h1 {
+  font-size: 42px;
+  font-family: 'Palanquin Dark', sans-serif;  
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .map {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 100%;
-}
-
-.test-background {
-  color: white;
-  background-color: rgba(128,128,128, 0.7);
-  border-radius: 25px;
-}
-
-.gray-background {
-  color: black;
-  margin-top: 20px;
-  background-color: rgba(128,128,128, 0.7);
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 25px;
-}
-
-.icon-invisible {
-    visibility: hidden;
 }
 
 .contact h1, h3, h5, h6 {
@@ -139,7 +105,7 @@ div.mydiv span {
 }
 
 .fit-image {
-  max-width: 75%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -148,26 +114,32 @@ div.mydiv span {
   width: 100%;
 }
 
+#coupon {
+  display: inline-block;
+}
+
 #Manahawkinbanner {
-  background-image: url('../img/manahawkin.png');
+  background-image: url('../img/manahawkinstore.png');
   background-size: 100% 120%;
-  background-repeat: no-repeat;
-  height: 20%;
-  padding: 20px;
+  background-repeat: no-repeat; 
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 5px; 
 }
 
 #Shipbottombanner {
   background-image: url('../img/shipbottom.png');
   background-size: 100% 120%;
-  background-repeat: no-repeat;
-  height: 20%;
-  padding: 20px;
+  background-repeat: no-repeat;  
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 #BHcrestbanner {
   background-image: url('../img/bhcrest.png');
   background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 20%;
-  padding: 0;
+  background-repeat: no-repeat;  
+  padding: 5px;
+  margin-bottom: 5px;
 }
