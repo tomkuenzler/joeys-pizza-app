@@ -20,7 +20,12 @@
   <preference name="android-installLocation" value="auto"/>
   <preference name="SplashScreen" value="screen" />
   <preference name="SplashScreenDelay" value="2000" />
+  <preference name="StatusBarOverlaysWebView" value="false" /> 
+  <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
+  <preference name="StatusBarStyle" value="default" />
   <gap:plugin name="org.apache.cordova.splashscreen"/>
+  <gap:plugin name="org.apache.cordova.inappbrowser"/>
+  <gap:plugin name="org.apache.cordova.statusbar"/>
   <icon src="icon.png"/>
   <icon src="res/icon/android/36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="res/icon/android/48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
