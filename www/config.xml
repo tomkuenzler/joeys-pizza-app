@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.0.5">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.0.6">
   <name><![CDATA[Joeys' Pizza and Pasta]]></name>
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
@@ -26,6 +26,7 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.inappbrowser"/>
   <gap:plugin name="org.apache.cordova.statusbar"/>
+  <gap:plugin name="com.ohh2ahh.plugins.appavailability" />
   <icon src="icon.png"/>
   <icon src="res/icon/android/36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="res/icon/android/48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
