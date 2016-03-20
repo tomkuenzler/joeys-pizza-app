@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.0.7">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.0.8">
   <name><![CDATA[Joeys' Pizza and Pasta]]></name>
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
@@ -54,6 +54,12 @@
     <allow-intent href="market:*"/>
   </platform>
   <platform name="ios">
+    <config-file target="-Info.plist" parent="LSApplicationQueriesSchemes">
+      <array>
+        <string>fb</string>
+        <string>instagram</string>
+      </array>
+    </config-file>
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>
