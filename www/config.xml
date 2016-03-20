@@ -54,13 +54,13 @@
     <allow-intent href="market:*"/>
   </platform>
   <platform name="ios">
-    <config-file target="-Info.plist" parent="LSApplicationQueriesSchemes">
-      <array>
-        <string>fb</string>
-        <string>instagram</string>
-      </array>
-    </config-file>
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>
+  <gap:config-file platform="ios" parent="LSApplicationQueriesSchemes" overwrite="true">
+    <array>
+        <string>fb</string>
+        <string>instagram</string>
+    </array>
+  </gap:config-file>
 </widget>
