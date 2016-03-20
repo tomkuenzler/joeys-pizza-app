@@ -10,6 +10,14 @@ function openFacebook() {
 	);
 }
 
-// function openFacebook() {
-// 	window.open('https://www.facebook.com/335761773297446','_system','location=yes');
-// }
+function openInstagram() {
+	appAvailability.check(
+	    'instagram://', // URI Scheme
+	    function() {  // Success callback
+	        window.open('instagram://user?username=joeys_pizzapasta', '_system');
+	    },
+	    function() {  // Error callback
+	        window.open('https://www.instagram.com/joeys_pizzapasta/','_system');
+	    }
+	);
+}
