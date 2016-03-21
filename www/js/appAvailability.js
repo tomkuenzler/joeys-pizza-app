@@ -21,3 +21,14 @@ function openInstagram() {
 	    }
 	);
 }
+
+// function openMaps() {
+// 	appAvailability.check(
+// 	    'maps://', // URI Scheme
+// 	    function() {  // Success callback
+// 	        window.open('maps://maps.apple.com/?q=Joeys+Pizza+%26+Pasta&address=1340,NJ-72,Manahawkin,NJ', '_system');
+// 	    function() {  // Error callback
+// 	        window.open('maps.apple.com/?q=Joeys+Pizza+%26+Pasta&address=1340,NJ-72,Manahawkin,NJ','_system');
+// 	    }
+// 	);
+// }
