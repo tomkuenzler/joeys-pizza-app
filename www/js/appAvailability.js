@@ -1,6 +1,6 @@
 function openFacebook() {
 	appAvailability.check(
-	    'fb://', // URI Scheme
+	    'com.facebook.android', // URI Scheme
 	    function() {  // Success callback
 	        window.open('fb://profile/335761773297446', '_system');
 	    },
