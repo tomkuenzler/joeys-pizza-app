@@ -1,8 +1,8 @@
 function openFacebook() {
 	appAvailability.check(
-	    'com.facebook.android', // URI Scheme
+	    'com.facebook.katana', // URI Scheme
 	    function() {  // Success callback
-	        window.open('fb://profile/335761773297446', '_system');
+	        window.open('fb://facewebmodal/f?href=https://www.facebook.com/335761773297446', '_system');
 	    },
 	    function() {  // Error callback
 	        window.open('https://www.facebook.com/335761773297446','_system');
