@@ -12,7 +12,7 @@ function openFacebook() {
 
 function openInstagram() {
 	appAvailability.check(
-	    'instagram://', // URI Scheme
+	    'com.instagram.android', // URI Scheme
 	    function() {  // Success callback
 	        window.open('instagram://user?username=joeys_pizzapasta', '_system');
 	    },
