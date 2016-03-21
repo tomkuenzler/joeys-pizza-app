@@ -22,13 +22,35 @@ function openInstagram() {
 	);
 }
 
-// function openMaps() {
-// 	appAvailability.check(
-// 	    'maps://', // URI Scheme
-// 	    function() {  // Success callback
-// 	        window.open('maps://maps.apple.com/?q=Joeys+Pizza+%26+Pasta&address=1340,NJ-72,Manahawkin,NJ', '_system');
-// 	    function() {  // Error callback
-// 	        window.open('maps.apple.com/?q=Joeys+Pizza+%26+Pasta&address=1340,NJ-72,Manahawkin,NJ','_system');
-// 	    }
-// 	);
-// }
+function openMaps() {
+	appAvailability.check(
+	    'maps://', // URI Scheme
+	    function() {  // Success callback
+	        window.open('maps://maps.apple.com/?q=Joeys+Pizza+%26+Pasta&address=1340,NJ-72,Manahawkin,NJ', '_system');
+	    function() {  // Error callback
+	        window.open('maps.apple.com/?q=Joeys+Pizza+%26+Pasta&address=1340,NJ-72,Manahawkin,NJ','_system');
+	    }
+	);
+}
+
+function openMapsShip() {
+	appAvailability.check(
+	    'maps://', // URI Scheme
+	    function() {  // Success callback
+	        window.open('maps://maps.apple.com/?q=Joeys+Pizza&address=2201,Long+Beach+Blvd,Beach+Haven,NJ', '_system');
+	    function() {  // Error callback
+	        window.open('maps.apple.com/?q=Joeys+Pizza&address=2201,Long+Beach+Blvd,Beach+Haven,NJ','_system');
+	    }
+	);
+}
+
+function openMapsBH() {
+	appAvailability.check(
+	    'maps://', // URI Scheme
+	    function() {  // Success callback
+	        window.open('maps://maps.apple.com/?q=Joeys+Pizza&address=8106,Long+Beach+Blvd,Long+Beach+Township,NJ', '_system');
+	    function() {  // Error callback
+	        window.open('maps.apple.com/?q=Joeys+Pizza&address=8106,Long+Beach+Blvd,Long+Beach+Township,NJ','_system');
+	    }
+	);
+}
