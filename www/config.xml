@@ -3,6 +3,7 @@
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
   <content src="index.html"/>
+  <preference name="phonegap-version" value="cli-6.4.0" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
@@ -25,7 +26,7 @@
   <preference name="StatusBarStyle" value="lightcontent" />
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="cordova-plugin-statusbar" spec="~2.4.1"/>
+  <plugin name="cordova-plugin-statusbar" />
   <gap:plugin name="com.ohh2ahh.plugins.appavailability" />
   <icon src="icon.png"/>
   <icon src="res/icon/android/36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
