@@ -40,10 +40,6 @@ a:active {
   text-decoration: none;
 }
 
-div.mydiv:active {
-	background-color: #e5e5ff;
-}
-
 div.mydiv i {
   float: left;
 }
