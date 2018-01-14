@@ -24,8 +24,8 @@
   <preference name="StatusBarOverlaysWebView" value="false" /> 
   <preference name="StatusBarBackgroundColor" value="#222222" />
   <preference name="StatusBarStyle" value="lightcontent" />
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser"/>
+  <plugin name="cordova-plugin-splashscreen" />
+  <plugin name="cordova-plugin-inappbrowser" />
   <plugin name="cordova-plugin-statusbar" />
   <gap:plugin name="com.ohh2ahh.plugins.appavailability" />
   <icon src="icon.png"/>
