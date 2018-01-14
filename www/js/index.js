@@ -46,4 +46,8 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+
+    if (cordova.platformId == 'android') {
+        StatusBar.backgroundColorByHexString("#000000");
+    }
 };
