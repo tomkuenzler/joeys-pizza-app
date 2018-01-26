@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.1.5">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.1.6">
   <name><![CDATA[Joeys' Pizza and Pasta]]></name>
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
@@ -6,7 +6,7 @@
   <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
-  <preference name="target-device" value="universal"/>
+  <preference name="target-device" value="handset"/>
   <preference name="fullscreen" value="false"/>
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
