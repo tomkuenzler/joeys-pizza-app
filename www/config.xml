@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.1.7">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.1.8">
   <name><![CDATA[Joeys' Pizza and Pasta]]></name>
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
@@ -35,8 +35,11 @@
   <icon src="res/icon/android/96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
   <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
   <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
+  <icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76"/>
   <icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
+  <icon src="res/icon/ios/icon-120.png" gap:platform="ios" width="120" height="120"/>
   <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
+  <icon src="res/icon/ios/icon-152.png" gap:platform="ios" width="152" height="152"/>
   <gap:splash src="res/splash/android/ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="res/splash/android/mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="res/splash/android/hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
