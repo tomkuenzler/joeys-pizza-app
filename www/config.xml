@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.2.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.2.01">
   <name><![CDATA[Joeys' Pizza and Pasta]]></name>
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
@@ -24,10 +24,15 @@
   <preference name="StatusBarOverlaysWebView" value="false" /> 
   <preference name="StatusBarBackgroundColor" value="#000000" />
   <preference name="StatusBarStyle" value="lightcontent" />
+  <preference name="phonegap-version" value="cli-8.0.0" />
   <plugin name="cordova-plugin-splashscreen" />
   <plugin name="cordova-plugin-inappbrowser" />
   <plugin name="cordova-plugin-statusbar" />
   <plugin name="cordova-plugin-appavailability" source="npm" />
+  <plugin name="cordova-plugin-googlemaps">
+    <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDefYewZu988kYPi2mCEGpxusB0ZK20wVA" />
+    <variable name="API_KEY_FOR_IOS" value="AIzaSyDefYewZu988kYPi2mCEGpxusB0ZK20wVA" />    
+  </plugin>
   <icon src="icon.png"/>
   <icon src="res/icon/android/36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="res/icon/android/48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
