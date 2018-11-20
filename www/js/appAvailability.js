@@ -5,7 +5,7 @@ function openFacebook() {
 	        window.open('fb://profile/335761773297446', '_system');
 	    },
 	    function() {  // Error callback
-	        cordova.InAppBrowser.open('https://www.facebook.com/335761773297446','_blank');
+	        cordova.InAppBrowser.open('https://www.facebook.com/335761773297446','_blank','location=no,closebuttoncaption=Back');
 	    }
 	);
 }
@@ -17,7 +17,7 @@ function openInstagram() {
 	        window.open('instagram://user?username=joeys_pizzapasta', '_system');
 	    },
 	    function() {  // Error callback
-	        cordova.InAppBrowser.open('https://www.instagram.com/joeys_pizzapasta/','_blank');
+	        cordova.InAppBrowser.open('https://www.instagram.com/joeys_pizzapasta/','_blank','location=no,closebuttoncaption=Back');
 	    }
 	);
 }
