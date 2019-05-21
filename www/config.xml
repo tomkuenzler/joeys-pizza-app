@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.2.04">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.joeyspizza" version="1.0.4">
   <name><![CDATA[Joeys' Pizza and Pasta]]></name>
   <description>An app created for Joeys' Pizza and Pasta</description>
   <author href="http://thomaskuenzler.com" email="tmkuenzler@gmail.com">Tom Kuenzler</author>
@@ -24,7 +24,6 @@
   <preference name="StatusBarOverlaysWebView" value="false" /> 
   <preference name="StatusBarBackgroundColor" value="#000000" />
   <preference name="StatusBarStyle" value="lightcontent" />
-  <preference name="phonegap-version" value="cli-8.0.0" />
   <plugin name="cordova-plugin-splashscreen" />
   <plugin name="cordova-plugin-inappbrowser" />
   <plugin name="cordova-plugin-statusbar" />
@@ -34,14 +33,10 @@
   <icon src="res/icon/android/48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="res/icon/android/72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
   <icon src="res/icon/android/96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
-  <icon src="res/icon/ios/icon-40.png" gap:platform="ios" width="40" height="40"/>
   <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
   <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
-  <icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76"/>
   <icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
-  <icon src="res/icon/ios/icon-120.png" gap:platform="ios" width="120" height="120"/>
   <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
-  <icon src="res/icon/ios/icon-152.png" gap:platform="ios" width="152" height="152"/>
   <gap:splash src="res/splash/android/ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="res/splash/android/mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="res/splash/android/hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
@@ -52,7 +47,6 @@
   <gap:splash src="splash.png" />
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
-  <allow-navigation href="*" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
@@ -64,11 +58,4 @@
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>
-  <gap:config-file platform="ios" parent="LSApplicationQueriesSchemes" overwrite="true">
-    <array>
-      <string>maps</string>
-      <string>fb</string>
-      <string>instagram</string>
-    </array>
-  </gap:config-file>
 </widget>
